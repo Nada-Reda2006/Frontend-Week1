@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Task</title>
+</head>
+<body>
+
+    <h1>Video Example</h1>
+
+    <video controls autoplay muted loop poster="video_task4/poster-image.jpg" width="600">
+    
+        <source src="video_task4/media_file.mp4" type="video/mp4">
+        <source src="video_task4/media_file.webm" type="video/webm">
+
+        <track src="captions-en.vtt" kind="subtitles" srclang="en" label="English"  default >
+        <track src="captions-ar.vtt" kind="subtitles" srclang="ar" label="Arabic">
+
+        Your browser does not support the video element.
+    </video>
+
+</body>
+</html>
